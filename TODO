@@ -1,0 +1,7 @@
+Mainline
+-- write net detection module (or discover if something else has a capability fully suited to whats required)
+-- complete configuration schema
+-- write hotplug module (using pyudev and flat file configuration where required).
+-- write psu module (Backend into laptop_mode_tools?)
+-- write init scripts
+-- write
