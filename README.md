@@ -17,7 +17,7 @@ Config switch events can be configured by plugins.
 This will require some extra configuration, and is considered an advanced option.
 
 --EXAMPLES--
-/etc/sysprofile.d/net.top.any.192.168.0.0_24
+/etc/sprofile.d/net.top.any.192.168.0.0_24
 
 will run this profile if the primary interface (or secondaries configured in /etc/pysysprofile.conf)
 if the network configuration matches 192.168.0.0/24
@@ -25,12 +25,12 @@ It will run the file, within can contain scripts or other configuration options.
 
 ---------
 
-/etc/sysprofile.d/net.top.eth3.192.168.0.0_24
+/etc/sprofile.d/net.top.eth3.192.168.0.0_24
 will run this profile only if eth3 is on a 192.168.0.0/24 network.
 
 ---------
 
-/etc/sysprofile.d/psu.batt.10/
+/etc/sprofile.d/psu.batt.10/
 on 10 percent battery, will run any scripts within this folder.
 
 ---------
